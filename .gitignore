@@ -1,0 +1,24 @@
+# Abhängigkeiten
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build-Dateien (falls du später Webpack, Vite oder TypeScript nutzt)
+dist/
+build/
+out/
+
+# Umgebungsvariablen (sehr wichtig für Passwörter oder API-Keys!)
+.env
+.env.local
+
+# Editor/OS spezifische Dateien
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
