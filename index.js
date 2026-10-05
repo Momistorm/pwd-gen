@@ -1,11 +1,11 @@
 "use strict";
 
 const generatePassword = (length, useSpecialSymbols) => {
-  const charset =
+  let charset =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
     if(useSpecialSymbols){
-      charset.concat("_-!$%&?=*+#€.:,;~'}][{()§°/");
+      charset +="_-!$%&?=*+#€.:,;~'}][{()§°/";
     }
   let password = "";
 
